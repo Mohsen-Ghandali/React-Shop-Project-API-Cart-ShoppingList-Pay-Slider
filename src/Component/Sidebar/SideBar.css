@@ -1,0 +1,42 @@
+div.sideBar {
+  width: 33% !important;
+  border-radius: 12px 0 0 0;
+  box-shadow: #a9a8a8 1px 5px 15px;
+  overflow: hidden;
+}
+
+div.sideBar > h1 {
+  font-size: 64px;
+  margin-top: 16px;
+}
+div.sideBar p,
+div.sideBar a {
+  font-size: 16px !important;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1670px) {
+  div.sideBar > h1 {
+    font-size: 30px;
+    margin-top: 0px !important;
+  }
+  div.sideBar p,
+  div.sideBar a {
+    font-size: 14px !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  div.sideBar {
+    width: 100% !important;
+    height: fit-content;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 40px;
+  }
+  div.sideBar > h1 {
+    text-align: center;
+    margin: 0 !important;
+    padding: 16px 0 8px 0px !important;
+  }
+}

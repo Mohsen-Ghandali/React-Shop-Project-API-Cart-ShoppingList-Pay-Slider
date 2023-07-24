@@ -1,0 +1,7 @@
+footer > a > img {
+  width: 40px;
+  transition: linear all 300ms;
+}
+footer > a > img:hover {
+  scale: 1.2;
+}

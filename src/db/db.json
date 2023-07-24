@@ -1,0 +1,148 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "home",
+            "link": "https://google.com",
+            "dropdown": []
+        },
+        {
+            "id": 2,
+            "name": "gallery",
+            "link": "https://google.com",
+            "dropdown": [
+                {
+                    "id": 1,
+                    "name": "product1",
+                    "link": "https://google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "product2",
+                    "link": "https://google.com"
+                },
+                {
+                    "id": 3,
+                    "name": "product3",
+                    "link": "https://google.com"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "about",
+            "link": "https://google.com",
+            "dropdown": []
+        },
+        {
+            "id": 4,
+            "name": "contact",
+            "link": "https://google.com",
+            "dropdown": []
+        }
+    ],
+    "sidebar": [
+        {
+            "id": 1,
+            "h1": "Hello-World!",
+            "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quos voluptatum tempore nostrum suscipit distinctio unde id veniam inventore. Recusandae, repellat itaque nisi quas ut quibusdam tempore sequi sunt magnam a. Officia ex unde dignissimos quam impedit dolorem qui voluptatem, ipsam soluta excepturi facere, velit debitis. Deserunt dolore voluptates quaerat laboriosam obcaecati saepe ducimus minima, nisi error corporis dicta laborum repellat perferendis earum fugiat sapiente architecto amet praesentium, eius autem blanditiis dolorum. Unde nemo veritatis porro excepturi quis quibusdam nisi obcaecati velit ea? Rerum quas reprehenderit iusto esse modi dolorum hic, doloribus rem adipisci numquam placeat repellendus doloremque quod consequatur."
+        }
+    ],
+    "slider": [
+        {
+            "id": 1,
+            "url": " https://artisan.ba/img/home_slider/desktop/5.webp",
+            "alt": "slider1"
+        },
+        {
+            "id": 2,
+            "url": "https://www.spenceandlyda.com.au/pub/media/mgs_brand/a/r/artisan-australian-custom-furniture.jpg",
+            "alt": "slider2"
+        },
+        {
+            "id": 3,
+            "url": "https://artisan.ba/img/home_slider/desktop/10.webp",
+            "alt": "slider3"
+        },
+        {
+            "id": 4,
+            "url": "https://artisan.ba/img/home_slider/desktop/8.webp",
+            "alt": "slider4"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "Picard Desk",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2018/07/neva-sideboard-thumb-768x1018.jpg",
+            "alt": "Picard Desk",
+            "price": 190
+        },
+        {
+            "id": 2,
+            "name": "Flow Table",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2021/11/DAV_1390-543x720.jpg",
+            "alt": "Flow Table",
+            "price": 150
+        },
+        {
+            "id": 3,
+            "name": "Tesa Chair",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2018/07/neva-lounge-thumb-768x1018.jpg",
+            "alt": "Tesa Chair",
+            "price": 280
+        },
+        {
+            "id": 4,
+            "name": "Luc Table",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2019/12/DAV_5519-Edit-543x720.jpg",
+            "alt": "Luc Table",
+            "price": 320
+        },
+        {
+            "id": 5,
+            "name": "Neva Table",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2022/06/DAV3721-543x720.jpg",
+            "alt": "Neva Table",
+            "price": 190
+        },
+        {
+            "id": 6,
+            "name": "Insert Lamp",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2018/08/shift-lamp-2-543x720.jpg",
+            "alt": "Insert Lamp",
+            "price": 150
+        },
+        {
+            "id": 7,
+            "name": "Alba Man",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2020/10/Invito_bar_chair_3-543x720.jpg",
+            "alt": "Alba Man",
+            "price": 280
+        },
+        {
+            "id": 8,
+            "name": "Latus Bench",
+            "img": "https://artisanfurnitureaustralia.com.au/wp-content/uploads/2018/07/Neva-Chair-Thumb-768x1018.jpg",
+            "alt": "Latus Bench",
+            "price": 320
+        }
+    ],
+    "footer": [
+        {
+            "id": 1,
+            "socialMedia": "https://img.icons8.com/arcade/64/youtube-play.png",
+            "alt": "youtube"
+        },
+        {
+            "id": 2,
+            "socialMedia": "https://img.icons8.com/arcade/128/instagram-new.png",
+            "alt": "instagram"
+        },
+        {
+            "id": 3,
+            "socialMedia": "https://img.icons8.com/arcade/128/facebook-new.png",
+            "alt": "facebook"
+        }
+    ]
+}

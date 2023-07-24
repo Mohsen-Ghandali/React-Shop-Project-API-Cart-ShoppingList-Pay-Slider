@@ -1,0 +1,141 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.42%;
+  padding-left: 5.7%;
+  padding-bottom: 40px;
+}
+
+.products > .prd {
+  width: 22.44%;
+  border-radius: 0 0 12px 12px;
+  box-shadow: #a0a0a0 0px 0px 15px;
+  margin-top: 24px;
+}
+
+.products > .prd img {
+  width: 100%;
+}
+
+.products > .prd h2 {
+  font: 600 18px "Advent Pro", "Gill Sans", "Gill Sans MT", sans-serif;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.cart {
+  position: fixed;
+  top: 44%;
+  left: 1%;
+  background-color: transparent !important;
+}
+.cart > .showCart {
+  display: flex;
+  width: 64px;
+  margin-bottom: 16px;
+  background-color: transparent !important;
+  border: none;
+}
+.cart > .showCart img {
+  width: 75%;
+}
+.cart > .showCart span {
+  width: 35%;
+  background-color: #dc3545;
+  border-radius: 50%;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: -8px;
+}
+
+.cart > .clearCart {
+  background-color: red;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif, "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif, Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 3px;
+  border: none;
+  border-radius: 4px;
+}
+
+.ReactModal__Overlay {
+  z-index: 9999;
+  background-color: rgb(160, 160, 160, 50%) !important;
+}
+
+.ReactModal__Content {
+  background-color: #f9f9f9 !important;
+  box-shadow: 0px 0px 15px #747474 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  margin: 10% 20%;
+  overflow-y: scroll;
+}
+
+.ReactModal__Content h3 {
+  color: #dc3545;
+  font-weight: bold;
+  margin: 32px 0;
+}
+
+.close {
+  border: none;
+  background-color: transparent;
+  width: 18px;
+  position: absolute;
+  top: 20px;
+  right: 32px;
+}
+
+.close img {
+  width: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ReactModal__Content {
+    margin: 0% 10%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .ReactModal__Content {
+    margin: 0% 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .products > .prd {
+    width: 46.2%;
+    margin-top: 8px;
+  }
+  .minus,
+  .plus {
+    width: 18px;
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    font-weight: bold !important;
+  }
+  span.numb {
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: #000 !important;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .products > .prd {
+    width: 94%;
+    margin-top: 8px;
+  }
+}
